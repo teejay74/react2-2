@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.Store {
+  width: 1000px;
+}
+.material-icons {
+  display: block;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: auto;
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.Cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  text-align: center;
+  width: 250px;
+  height: 250px;
+  margin: 20px;
+  background-color: rgb(245, 245, 245);
+  box-shadow: 0px 5px 5px 5px rgb(199, 195, 195);
+  padding: 10px;
+}
+
+.name {
+  text-decoration: solid;
+  text-transform: uppercase;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.color {
+  font-size: smaller;
+}
+
+.image {
+  display: block;
+  max-width: 100%;
+  max-height: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.price-cart {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  color:rgb(248, 72, 72);
+}
+
+.cart {
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: x-small;
+  background-color: inherit;
+  border: 1px solid rgb(248, 72, 72);;
+  outline: none;
+  padding: 5px 10px;
+  border-radius: 20px;
+  color: rgb(248, 72, 72);
+  max-height: 30px;
+}
+
+.cart:hover {
+  color:white;
+  background-color: rgb(248, 72, 72);
+}
+
+.Cards-list {
+  display: block;
+  width: 100%;
+}
+
+.card-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  height: 80px;
+  background-color: rgb(245, 245, 245);
+  margin-bottom: 3px;
+  padding: 5px 20px;
+}
+
+.image-list {
+  display: block;
+  max-width: 90px;
+  max-height: 100%;
+}
+
+.name-list {
+ margin-top: auto;
+ margin-bottom: auto;
+ text-decoration: solid;
+ text-transform: uppercase;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.color-list {
+  font-size: smaller;
+  margin-top: auto;
+ margin-bottom: auto;
+}
+
+.price-list {
+  margin-top: auto;
+ margin-bottom: auto;
+  color: rgb(248, 72, 72);
+}
+
+.card-list > .cart 
+{
+  margin-top: auto;
+  margin-bottom: auto;
+}
